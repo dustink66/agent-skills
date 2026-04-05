@@ -29,9 +29,11 @@ This skill includes template files in the `templates/` directory:
 | `templates/budget.html` | Budget page template |
 
 When generating a new travel website:
-1. Copy `templates/styles.css` and `templates/app.js` directly to the output directory
+1. **Copy `templates/styles.css` and `templates/app.js` directly to the output directory - DO NOT modify these files in any way, copy them exactly as-is**
 2. Generate HTML files by replacing template variables with actual content
 3. All HTML files should reference these two files
+
+**IMPORTANT: The styles.css and app.js files must be copied verbatim without any changes. Do not read, modify, or regenerate these files - just copy them directly from templates/.**
 
 ## Template Variables
 
